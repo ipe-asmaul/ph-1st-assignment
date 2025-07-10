@@ -22,6 +22,7 @@
     border-radius: 10px;
     padding: 12px 36px;
     font-family: "Raleway", sans-serif;
+    font: bold;
 }
 header{
     width: 100%;
@@ -31,6 +32,7 @@ header{
 }
 main{
     margin: 116px 141px 20px 159px;
+    /* background-color: #1E1E1E; */
 }
 nav{
     height: 151px;
@@ -82,7 +84,7 @@ nav ul li .nav-button{
    font-size: 42px;
 }
 .text-content p{
-    color: #252432;
+    color: rgba(37, 36, 50, 0.5);
     font-size:24px ;
     width: 517px;
 }
@@ -125,4 +127,91 @@ nav ul li .nav-button{
 .count-card h2{
     font-size: 80px;
     color: #4E47FF;
+}
+.rating-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-card{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+}
+
+.rating-card{
+    height: 243px;
+    width: 366px;
+    padding: 24px;
+    border-radius: 14px;
+   border: 1px solid #F2EDED;
+
+}
+.reviwer{
+    display: flex;
+    gap: 12px;
+}
+.reviwer img{
+    height:40px ;
+    width:40px ;
+    border-radius: 50%;
+}
+.form{
+    margin-top: 95px;
+    display: flex;
+    gap: 115px;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.input-label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+label{
+    font-size: bold;
+}
+input[type="email"],input[type="text"],textarea{
+    height: 70px;
+    width: 497px;
+    border: 1px solid #D6DDED;
+    outline: none;
+    background-color: #fff;
+    padding: 20px 32px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+textarea{
+    height: 135px;
+}
+footer{
+    height: 428px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+}
+footer nav{
+    height: auto;
+}
+footer nav ul{
+    display: flex;
+    gap: 48px;
+  
+
+}
+footer nav ul li{
+    list-style: none;
+}
+footer nav ul li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-family: "Raleway", sans-serif;
 }
